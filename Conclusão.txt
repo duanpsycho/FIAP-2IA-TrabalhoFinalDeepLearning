@@ -1,0 +1,18 @@
+Conclusão
+
+• O que pode-se fazer para alcançar maior acurácia na demo analisada? Qual o maior valor de acurácia conseguida pela sua equipe? Que outros testes poderiam ser feitos em se utilizando o Keras?
+
+O Grande desafio é encontrar a melhorar arquitetura neural para o problema que está tentando resolver. No DEMO 2 conseguimos 91,9% de acuracia no **Teste 1**. No DEMO 3 a maior acurácia obtida foi de 75,5% no modelo de **Teste 4**. 
+Testamos algumas arquiteturas com diferentes combinações, como quantidade menores de camadas e diferentes tipos de ativações, e consideramos que o entendimento dos dados é essencial para aplicar as melhores ativações e testar arquiteturas ideáis para obter um resultado cada vez mais eficaz.
+
+• Houve overfitting/underfitting em algum teste? Como posso fazer essa verificação para cada um dos casos? 
+Alguns testes com baixa acurácia e alto valor de 'loss' apresentaram underfitting, mas não identificamos casos de overfitting em nenhum dos testes executados por não presenciar nenhuma acurácia alta o suficiente.
+Também é possível identificar over/under fitting através de gráficos que mostram o ganho ao percorrer do treinamento do modelo. Existem também ténicas disponíveis no proprio KERAS para reduzir a chance de overfitting, que é chamada de Weight Constraint. 
+
+• Conclusões e sugestão de utilização da técnica de classificação de imagens da Demo 3 (CNN CIFAR10) em aplicação de mundo real.
+Nossa conclusão é que para utilização de Deep Learning o entendimento dos dados e conhecimento das arquiteturas/ativações é primordial para a melhor solução do problema, além de ter disponível um poder computacional para poder treinar a rede o tempo necessário para obter o melhor resultado. Classificações de imagens através de redes neurais é um mercado em alta neste momento, o que pode ser utilizado em diversos setores. Deixamos aqui uma sugestão para identificação de sentimentos através de leitura facial em consultas com psicologos, entregando uma ferramenta a mais para o médico que poderá identificar se o paciente fica triste em determinados assuntos, ou quando fica feliz ao falar sobre outro assunto.
+
+Referências
+https://keras.io/constraints/
+https://machinelearningmastery.com/introduction-to-weight-constraints-to-reduce-generalization-error-in-deep-learning/
+https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-neural-networks-with-weight-constraints-in-keras/
